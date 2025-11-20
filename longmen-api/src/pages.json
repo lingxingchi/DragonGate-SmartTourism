@@ -1,0 +1,149 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "畅游龙门",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/register/register",
+			"style": {
+				"navigationBarTitleText": "注册",
+				"navigationStyle": "custom"
+			}
+		},
+		{
+			"path": "pages/event-detail/event-detail",
+			"style": {
+				"navigationBarTitleText": "活动详情"
+			}
+		},
+		{
+			"path": "pages/announce-detail/announce-detail",
+			"style": {
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		{
+			"path": "pages/announce-list/announce-list",
+			"style": {
+				"navigationBarTitleText": "公告列表",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/ticket/ticket",
+			"style": {
+				"navigationBarTitleText": "预约订票"
+			}
+		},
+		{
+			"path": "pages/guide-map/guide-map",
+			"style": {
+				"navigationBarTitleText": "地图导览"
+			}
+		},
+		{
+			"path": "pages/user/user",
+			"style": {
+				"navigationBarTitleText": "我的"
+			}
+		},
+		{
+			"path": "pages/user/edit-profile",
+			"style": {
+				"navigationBarTitleText": "修改个人信息"
+			}
+		},
+		{
+			"path": "pages/user/change-password",
+			"style": {
+				"navigationBarTitleText": "修改密码"
+			}
+		},
+		{
+			"path": "pages/shop/shopping-cart",
+			"style": {
+				"navigationBarTitleText": "购物车"
+			}
+		},
+		{
+			"path": "pages/attraction-detail/attraction-detail",
+			"style": {
+				"navigationBarTitleText": "景点详情"
+			}
+		},
+		{
+			"path": "pages/route-list/route-list",
+			"style": {
+				"navigationBarTitleText": "推荐路线"
+			}
+		},
+		{
+			"path": "pages/route-detail/route-detail",
+			"style": {
+				"navigationBarTitleText": "路线详情"
+			}
+		},
+		{
+			"path": "pages/shop/shop",
+			"style": {
+				"navigationBarTitleText": "文创商城",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/shop/good-detail",
+			"style": {
+				"navigationBarTitleText": "商品详情"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "畅游龙门",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#999",
+		"selectedColor": "#2d8cf0",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/首页.png",
+				"selectedIconPath": "static/images/logo1.jpg"
+			},
+			{
+				"pagePath": "pages/guide-map/guide-map",
+				"text": "导览",
+				"iconPath": "static/地图类_地图.png",
+				"selectedIconPath": "static/images/logo1.jpg"
+			},
+			{
+				"pagePath": "pages/shop/shop",
+				"text": "商城",
+				"iconPath": "static/images/购物车空.png",
+				"selectedIconPath": "static/images/logo1.jpg"
+			},
+			{
+				"pagePath": "pages/user/user",
+				"text": "我的",
+				"iconPath": "static/我的.png",
+				"selectedIconPath": "static/images/logo1.jpg"
+			}
+		]
+	}
+}
